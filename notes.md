@@ -17,7 +17,7 @@ when you create a project several folders are created. most work will be done in
 From the src folder the tutorial does not use App.test.js, reportWebVitals.js or setupTests.js, so I deleted them as per tutorial instructions. Then to show that updates are updated live App.js was edited
 
 Lesson 2:
-went through making some additions to App.js which used standard html, constants, strings, integers, arrays and functions. LEarnt Booleans and Ogjects will not render
+Went through making some additions to App.js which used standard html, constants, strings, integers, arrays and functions. Learnt Booleans and Ogjects will not render
 
 Lesson 3:
 Went through and added a couple of functional components.
@@ -36,3 +36,14 @@ Added a component using a snippet command - rafce
 
     In Footer.js:
         Created a Footer
+
+Lesson 4: CSS
+Learnt about CSS
+
+    In Header.js:
+        Commented out the import of App.css
+        Made a CSS style inside the return part of function to show how CSS can work
+        Commented the CSS change out
+
+Updated index.css to have style change
+Was taught that in a small project keeping the css in 1 file is fine though in a big project you should make a seperate CSS file for each page made.
