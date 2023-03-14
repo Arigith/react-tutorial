@@ -47,3 +47,10 @@ Learnt about CSS
 
 Updated index.css to have style change
 Was taught that in a small project keeping the css in 1 file is fine though in a big project you should make a seperate CSS file for each page made.
+
+Lesson 5: Click events
+Created 4 different click events in Content.js that gave a response when you look at the consol logs
+    1. A button thaat just says "you clicked the button"
+    2. A button that says "{name} clicked the button" - name was Dave
+    3. A button that first showed the whole event (e) then the oject (e.target) then the buttons Text (e.target.innerText)
+    4. a function that just says "you clicked the button" when you double clicked any word on 'The double click handle

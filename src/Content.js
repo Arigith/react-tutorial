@@ -9,6 +9,18 @@ const Content = () => {
     	return names[int];
 	}
 
+    const handleClick = () => {
+        console.log('You clicked the button')
+    }
+
+    const handleClick2 = (names) => {
+        console.log(`${names} clicked the button`)
+    }
+
+    const handleClick3 = (e) => {
+        console.log(e.target.innerText)
+    }
+
     return (
         <main>
             <p>
@@ -29,6 +41,12 @@ const Content = () => {
                 You can also use a created function ie: 'Hello &#123;handleNameChange()&#125;!' renders as Hello {handleNameChange()}!<br/>
                 The 'handleNameChange()' function has a fixed list of names, this then chooses a name at random and then finally displays this name. Try it by reloading the plage.
             </p>
+
+            <p onDoubleClick={handleClick}>The double click handle</p>
+
+            <button onClick={handleClick}>Click Me</button>
+            <button onClick={() => handleClick2('Dave')}>Don't Click Me</button>
+            <button onClick={(e) => handleClick3(e)}>Please Don't Click Me</button>
         </main>
     )
 }
